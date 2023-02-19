@@ -13,15 +13,15 @@ mvn archetype:generate -DgroupId=one.digitalinnovation -DartifactId=quick-start-
 
 # COMPILAR CLASSES
 mvn compiler
-# Cria a pasta "target"
+* Cria a pasta "target"
 
 # Teste
 mvn test
-# Faz asserção das classes
+* Faz asserção das classes
 
 # EMPACOTAR O SOFTWARE (CRIA O JAR DA APLICAÇÃO )
 mvn package
-# Cria em "target" um jar.
+* Cria em "target" um jar.
 
 # LIMPAR A PASTA TARGE
 mvn clean
